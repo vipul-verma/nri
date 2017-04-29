@@ -22,6 +22,46 @@ body {
     left: 0;
 }
 
+.left-menu {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	margin-top: 100px;
+}
+
+.left-menu > li {
+    border: 2px #ffbd54 solid;
+    background-color: rgba(255, 153, 51, 0.5);
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: 70%;
+    margin-left: 5px;
+}
+
+.left-menu > li > a {
+	color: #000;
+	font-weight: 600;
+	margin-left: 1px;
+	font-size: 13px;
+	padding: 3px 5px;
+	display: block;
+}
+
+.left-menu > li > a:hover,
+.left-menu > li > a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+.side-bullet {
+    margin-right: 3px;
+}
+
+.left-menu-link {
+	position: relative;
+	top: 2px;
+}
+
 .shlok {
 	background-image: url(../img/slokh1.png);
 	height: 100vh;
@@ -32,6 +72,10 @@ body {
 
 .logo {
 	margin-top: 7px;
+}
+
+.logo > img {
+    float: right;
 }
 
 .navbar {
@@ -68,8 +112,4 @@ body {
 .nav-bullet {
     margin-left: -3px;
     margin-right: 5px;
-}
-
-.dropdown:hover .dropdown-menu {
-    display: block;
 }
