@@ -113,3 +113,8 @@ body {
     margin-left: -3px;
     margin-right: 5px;
 }
+
+.carousel-control.right,
+.carousel-control.left {
+    background-image: none;
+}
