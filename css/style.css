@@ -28,6 +28,10 @@
     margin-top: 0;
 }
 
+.mt15 {
+    margin-top: 15px;
+}
+
 .mb15 {
     margin-bottom: 15px;
 }
@@ -417,4 +421,26 @@ body {
 .mySlider {
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.video-content {
+    padding: 15px;
+}
+
+.video-content h3 {
+    margin-top: 0;
+}
+
+.videoFrame {
+    padding: 15px;
+}
+
+.clipImg {
+    padding: 15px;
+    height: 200px;
+    width: 100%;
+}
+
+#sticker {
+    z-index: 99999 !important;
 }
