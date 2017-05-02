@@ -28,8 +28,19 @@
     margin-top: 0;
 }
 
+.mb15 {
+    margin-bottom: 15px;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
 .no-border {
     border: none !important;
+}
+.ml15 {
+    margin-left: 15px;
 }
 
 .triangle {
@@ -193,7 +204,7 @@ body {
 .main-menu > li > ul > li > a:focus {
     text-decoration: none;
     color: #ff0;
-    background-color: #222;
+    background-color: #cc0000;
 }
 
 .nav-bullet {
@@ -347,4 +358,63 @@ body {
 
 .main-address-img {
     padding: 15px;
+}
+
+.admission-details {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-top: 15px;
+}
+
+.admission-details2 {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.admission-details > li {
+    margin-bottom: 15px;
+}
+
+.admission-details2 > li {
+    margin-bottom: 15px;
+}
+
+.admission-details > li > span {
+	font-size: 13px;
+	position: relative;
+	top: 1px;
+}
+
+.listed-item {
+	position: relative;
+	left: -48px;
+    line-height: 24px;
+}
+
+.course-table {
+    border-color: #000;
+}
+
+.course-table > thead  > tr > th {
+    border-bottom: 0;
+}
+
+.course-table > thead  > tr > th,
+.course-table > tbody > tr > td {
+    border-color: #000;
+    text-align: center;
+}
+
+.odissi-heading {
+	position: relative;
+	top: 3px;
+	left: 5px;
+}
+
+.mySlider {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
