@@ -444,3 +444,7 @@ body {
 #sticker {
     z-index: 99999 !important;
 }
+
+.glimseImg {
+    padding: 15px;
+}
