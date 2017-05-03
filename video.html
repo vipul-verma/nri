@@ -24,6 +24,8 @@
     <link href="css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="css/media.css" rel="stylesheet">
 
+    <link rel="stylesheet" href="css/animate.min.css">
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -37,14 +39,14 @@
         <div class="col-sm-3 no-pad-right">
           <div class="left-sidebar">
             <ul class="left-menu">
-              <li>
-                <a href="">
+              <li class="wow slideInLeft">
+                <a href="./gurutrinathmaharana.html">
                   <img src="img/side bullet.png" class="side-bullet" alt="">
                   <span class="left-menu-link">GURU TRINATH MAHARANA</span>
                 </a>
               </li>
-              <li>
-                <a href="">
+              <li class="wow slideInLeft">
+                <a href="./sushantmaharana.html">
                   <img src="img/side bullet.png" class="side-bullet" alt="">
                   <span class="left-menu-link">SUSHANT MAHARANA</span>
                 </a>
@@ -63,7 +65,7 @@
               </div>
             </div>
             <div class="row">
-              <nav class="navbar navbar-default">
+              <nav class="navbar navbar-default" id="sticker">
                 <div class="container-fluid no-pad-left no-pad-right">
                   <!-- Brand and toggle get grouped for better mobile display -->
                   <div class="navbar-header">
@@ -78,9 +80,9 @@
                   <!-- Collect the nav links, forms, and other content for toggling -->
                   <div class="collapse navbar-collapse  no-pad-left no-pad-right" id="bs-example-navbar-collapse-1">
                     <ul class="nav nav-tabs nav-justified main-menu">
-                      <li><a href="./index.html"><img src="img/navbullet2.png" class="nav-bullet" alt="">Home</a></li>
+                      <li><a href="index.html"><img src="img/navbullet2.png" class="nav-bullet" alt="">Home</a></li>
                       <li class="dropdown">
-                        <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                           <img src="img/navbullet2.png" class="nav-bullet" alt="">About Us 
                           <span class="caret"></span>
                         </a>
@@ -88,8 +90,8 @@
                           <div class="triangle"></div>
                           <li><a href="./nritya.html">Nrityamanjari</a></li>
                           <li><a href="./nrityafest.html">Nrityamanjari Festival</a></li>
-                          <li><a href="#">Manjari Odissi Nrityalaya</a></li>
-                          <li><a href="#">Our Teachers</a></li>
+                          <li><a href="./mon.html">Manjari Odissi Nrityalaya</a></li>
+                          <li><a href="./teachers.html">Our Teachers</a></li>
                         </ul>
                       </li>
                       <li class="dropdown">
@@ -99,9 +101,9 @@
                         </a>
                         <ul class="dropdown-menu">
                           <div class="triangle"></div>
-                          <li><a href="#">Centres</a></li>
-                          <li><a href="#">Admission</a></li>
-                          <li><a href="#">Examination</a></li>
+                          <li><a href="./centers.html">Centres</a></li>
+                          <li><a href="./admission.html">Admission</a></li>
+                          <li><a href="./exam.html">Examination</a></li>
                         </ul>
                       </li>
                       <li class="dropdown">
@@ -111,8 +113,8 @@
                         </a>
                         <ul class="dropdown-menu">
                           <div class="triangle"></div>
-                          <li><a href="#">Odissi</a></li>
-                          <li><a href="#">Chhau &amp; Creative </a></li>
+                          <li><a href="./odissi.html">Odissi</a></li>
+                          <li><a href="./chhau.html">Chhau &amp; Creative </a></li>
                         </ul>
                       </li>
                       <li class="dropdown">
@@ -122,9 +124,9 @@
                         </a>
                         <ul class="dropdown-menu">
                           <div class="triangle"></div>
-                          <li><a href="#">Pictures Gallery</a></li>
-                          <li><a href="#">Videos</a></li>
-                          <li><a href="#">Testimonials</a></li>
+                          <li><a href="./gallery.html">Pictures Gallery</a></li>
+                          <li><a href="./video.html">Videos</a></li>
+                          <li><a href="./testimonial.html">Testimonials</a></li>
                         </ul>
                       </li>
                       <li class="dropdown">
@@ -134,12 +136,12 @@
                         </a>
                         <ul class="dropdown-menu">
                           <div class="triangle"></div>
-                          <li><a href="#">Glimpses Nrityamanjari</a></li>
-                          <li><a href="#">Recent Events</a></li>
-                          <li><a href="#">Archive Events</a></li>
+                          <li><a href="./glimpsesnrityamanjari.html">Glimpses Nrityamanjari</a></li>
+                          <li><a href="./recentevents.html">Recent Events</a></li>
+                          <li><a href="./archiveevents.html">Archive Events</a></li>
                         </ul>
                       </li>
-                      <li><a href="#"><img src="img/navbullet2.png" class="nav-bullet" alt="">Contact Us</a></li>
+                      <li><a href="./contactus.html"><img src="img/navbullet2.png" class="nav-bullet" alt="">Contact Us</a></li>
                     </ul>
                   </div><!-- /.navbar-collapse -->
                 </div><!-- /.container-fluid -->
@@ -247,7 +249,7 @@
                 <div class="box">
                   <div class="panel-heading">
                     <img src="img/icon4.png" class="img-responsive" width="80px">
-                    <h4>Picture Gallery</h4> 
+                    <h4 class="fs36 fwB allura wow flipInX"  data-wow-duration="1s" data-wow-delay="500ms">Picture Gallery</h4> 
                   </div>
                   <div class="panel-body">                  
                     <p class="">Find here photos of dance performances.</p>                   
@@ -264,7 +266,7 @@
                 <div class="box">
                   <div class="panel-heading">
                     <img src="img/icon2.png" class="img-responsive" width="80px">
-                    <h4>Testimonials</h4>
+                    <h4 class="fs36 fwB allura wow flipInX"  data-wow-duration="1s" data-wow-delay="500ms">Testimonials</h4>
                   </div>
                   <div class="panel-body">
                     <p>A gallery of testimonials in prominent magazines and newspapers. </p>                                
@@ -281,7 +283,7 @@
                 <div class="box">
                   <div class="panel-heading">
                     <img src="img/icon3.png" class="img-responsive" width="80px">
-                    <h4>Events</h4>
+                    <h4 class="fs36 fwB allura wow flipInX"  data-wow-duration="1s" data-wow-delay="500ms">Events</h4>
                   </div>
                   <div class="panel-body">                   
                     <p>Recent and forthcoming events of Nrityamanjari. </p>                  
@@ -302,27 +304,27 @@
                 <div class="footer clearfix">
                   <div class="footer-wrapper">
                     <div class="row">
-                      <div class="col-sm-3">
+                      <div class="col-sm-3 wow zoomIn"  data-wow-duration="1s" data-wow-delay="500ms">
                         <div class="footer-col-heading">Page</div>
                         <ul>
-                          <li><a href="">Home</a></li>
-                          <li><a href="">Nrityamanjari</a></li>
-                          <li><a href="">Manjari Odissi Nrityalaya</a></li>
+                          <li><a href="./index.html">Home</a></li>
+                          <li><a href="./nritya.html">Nrityamanjari</a></li>
+                          <li><a href="./mon.html">Manjari Odissi Nrityalaya</a></li>
                         </ul>
                       </div>
-                      <div class="col-sm-3">
+                      <div class="col-sm-3 wow zoomIn"  data-wow-duration="1s" data-wow-delay="500ms">
                         <div class="footer-col-heading">Page</div>
                         <ul>
-                          <li><a href="">Courses &amp; Classes</a></li>
-                          <li><a href="">Recent Events</a></li>
-                          <li><a href="">Media Coverage</a></li>
+                          <li><a href="./centers.html">Courses &amp; Classes</a></li>
+                          <li><a href="./recentevents.html">Recent Events</a></li>
+                          <li><a href="./testimonial.html">Media Coverage</a></li>
                         </ul>
                       </div>
-                      <div class="col-sm-3">
+                      <div class="col-sm-3 wow zoomIn"  data-wow-duration="1s" data-wow-delay="500ms">
                         <div class="footer-col-heading">Profile</div>
                         <ul>
-                          <li><a href="">GURU TRINATH MAHARANA</a></li>
-                          <li><a href="">SUSHANT MAHARANA</a></li>
+                          <li><a href="./gurutrinathmaharana.html">GURU TRINATH MAHARANA</a></li>
+                          <li><a href="./sushantmaharana.html">SUSHANT MAHARANA</a></li>
                           <li class="no-border">
                             <ul class="social-list">
                               <li class="no-border"><a href=""> <img src="img/facebook.png" alt=""></a></li>
@@ -331,15 +333,15 @@
                           </li>
                         </ul>
                       </div>
-                      <div class="col-sm-3">
+                      <div class="col-sm-3 wow zoomIn"  data-wow-duration="1s" data-wow-delay="500ms">
                         <div class="footer-col-heading">Address</div>
                         <p class="address">D-100, Ganesh Nagar, Pandav Nagar Comples, Delhi - 110092, Mob: 9999432103</p>
-                        <button class="btn btn-danger btn-enquire">Enquire Now</button>
+                        <a href="./contactus.html" class="btn btn-danger btn-enquire">Enquire Now</a>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="copyright">Ⓒ2017 Copyright. All Rights Reserved. Developed by </div>
+                <div class="copyright">Ⓒ2017 Copyright. All Rights Reserved. Developed by Vipul Verma</div>
               </div>
             </div>
 
@@ -357,6 +359,9 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
