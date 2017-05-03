@@ -32,6 +32,10 @@
     margin-top: 15px;
 }
 
+.mt30 {
+    margin-top: 30px;
+}
+
 .mb15 {
     margin-bottom: 15px;
 }
@@ -45,6 +49,14 @@
 }
 .ml15 {
     margin-left: 15px;
+}
+
+.pad15 {
+    padding: 15px;
+}
+
+.l20 {
+    left: -20px !important;
 }
 
 .triangle {
@@ -415,7 +427,6 @@ body {
 .odissi-heading {
 	position: relative;
 	top: 3px;
-	left: 5px;
 }
 
 .mySlider {
@@ -447,4 +458,9 @@ body {
 
 .glimseImg {
     padding: 15px;
+}
+
+.btn-submit {
+    background-color: #cc0000;
+    color: #fff;
 }
